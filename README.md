@@ -82,27 +82,26 @@ PerpustakaanMini/
 ├─ LibraryApp.java
 └─ README.md
 
-⚙️ Kebutuhan Sistem
-
+## ⚙️ Kebutuhan Sistem
 - JDK: Minimal Java 8 (disarankan versi terbaru).
 - OS: Windows / Linux / macOS (selama ada JVM).
 - Editor: VS Code / IntelliJ / NetBeans / text editor lain.
 - Terminal: Command Prompt / PowerShell / Terminal.
 
-▶️ Cara Compile & Jalankan
+## ▶️ Cara Compile & Jalankan
 '''text
 cd PerpustakaanMini
 
-Compile semua file Java:
+### Compile semua file Java:
 '''text
 javac *.java
 Jika berhasil, akan muncul file .class di folder yang sama.
 
-Jalankan aplikasi:
+### Jalankan aplikasi:
 '''text
 java LibraryApp
 
-Di console akan muncul menu:
+### Di console akan muncul menu:
 '''text
 === MENU PERPUSTAKAAN MINI ===
 1. Lihat daftar buku
@@ -115,7 +114,7 @@ Di console akan muncul menu:
 8. Demo pass by value
 9. Keluar
 
-🧪 Contoh Alur Penggunaan
+## 🧪 Contoh Alur Penggunaan
 Pilih menu 1 → lihat daftar buku awal.
 Pilih menu 3 → tambah buku baru (isi ID, judul, penulis).
 Pilih menu 4 → daftar anggota baru.
