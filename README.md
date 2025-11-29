@@ -1,4 +1,7 @@
 # 📚 Perpustakaan Mini – Aplikasi Console Java
+- Nama Mahasiswa    : Muhammad Nur Faqi
+- NIM               : 1001250014
+- Kelas             : Eksekutif
 
 Project ini adalah **aplikasi perpustakaan mini berbasis console** yang dibuat untuk memenuhi tugas mata kuliah **Pemrograman Berorientasi Objek (PBO)**.  
 Aplikasi ini menunjukkan implementasi konsep dasar OOP di Java seperti **class, object, enkapsulasi, constructor, overloading, ArrayList, dan method dengan parameter & return value**.
