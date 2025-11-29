@@ -14,12 +14,13 @@ public class LibraryApp {
         Library library = new Library();
 
         // Data awal (contoh di main)
-        library.addBook(new Book("B001", "Pemrograman Java Dasar", "Andi"));
-        library.addBook(new Book("B002", "Struktur Data", "Budi"));
-        library.addBook(new Book("B003", "Basis Data", "Cici"));
+        library.addBook(new Book("ITTS01", "Pemrograman Java Dasar", "Andi"));
+        library.addBook(new Book("ITTS02", "Struktur Data", "Budi"));
+        library.addBook(new Book("ITTS03", "Basis Data", "Cici"));
 
-        library.addMember(new Member("M001", "Reza", "081234567890"));
-        library.addMember(new Member("M002", "Dewi", "089876543210"));
+        library.addMember(new Member("ITTS001", "Reza", "081234567890"));
+        library.addMember(new Member("ITTS002", "Dewi", "089876543210"));
+        library.addMember(new Member("ITTS003", "Faqi", "082115555517"));
 
         boolean running = true;
 
