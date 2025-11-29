@@ -71,17 +71,6 @@ Project ini menggunakan 5 class utama:
 - Memiliki method `demoPassByValue(int x)` untuk contoh **pass by value**.
 
 ---
-
-## 📂 Struktur Folder
-```text
-PerpustakaanMini/
-├─ Book.java
-├─ Member.java
-├─ Loan.java
-├─ Library.java
-├─ LibraryApp.java
-└─ README.md
-
 ## ⚙️ Kebutuhan Sistem
 - JDK: Minimal Java 8 (disarankan versi terbaru).
 - OS: Windows / Linux / macOS (selama ada JVM).
@@ -89,20 +78,16 @@ PerpustakaanMini/
 - Terminal: Command Prompt / PowerShell / Terminal.
 
 ## ▶️ Cara Compile & Jalankan
-'''text
-cd PerpustakaanMini
+`cd PerpustakaanMini`
 
 ### Compile semua file Java:
-'''text
-javac *.java
+`javac *.java`
 Jika berhasil, akan muncul file .class di folder yang sama.
 
 ### Jalankan aplikasi:
-'''text
-java LibraryApp
+`java LibraryApp`
 
-### Di console akan muncul menu:
-'''text
+## Di console akan muncul menu:
 === MENU PERPUSTAKAAN MINI ===
 1. Lihat daftar buku
 2. Lihat daftar anggota
@@ -115,16 +100,26 @@ java LibraryApp
 9. Keluar
 
 ## 🧪 Contoh Alur Penggunaan
-Pilih menu 1 → lihat daftar buku awal.
-Pilih menu 3 → tambah buku baru (isi ID, judul, penulis).
-Pilih menu 4 → daftar anggota baru.
-Pilih menu 5 → pinjam buku:
-Masukkan ID buku yang tersedia, misalnya B001.
-Masukkan ID anggota yang valid, misalnya M001.
-Pilih menu 7 → lihat daftar peminjaman.
-Pilih menu 6 → kembalikan buku yang sudah dipinjam.
-Pilih menu 8 → lihat demo konsep pass by value:
-Nilai di dalam method berubah, nilai variabel awal tetap.
-Pilih menu 9 → keluar dari program.
-
+1. Pilih menu 1 → lihat daftar buku awal.
+2. Pilih menu 3 → tambah buku baru (isi ID, judul, penulis).
+3. Pilih menu 4 → daftar anggota baru.
+4. Pilih menu 5 → pinjam buku:
+5. Masukkan ID buku yang tersedia, misalnya B001.
+6. Masukkan ID anggota yang valid, misalnya M001.
+7. Pilih menu 7 → lihat daftar peminjaman.
+8. Pilih menu 6 → kembalikan buku yang sudah dipinjam.
+9. Pilih menu 8 → lihat demo konsep pass by value:
+10. Nilai di dalam method berubah, nilai variabel awal tetap.
+11. Pilih menu 9 → keluar dari program.
 Selesai.
+
+## 📂 Struktur Folder
+```text
+PerpustakaanMini/
+├─ Book.java
+├─ Member.java
+├─ Loan.java
+├─ Library.java
+├─ LibraryApp.java
+└─ README.md
+
