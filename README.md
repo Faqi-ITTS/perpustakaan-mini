@@ -85,7 +85,7 @@ Project ini menggunakan 5 class utama:
 Jika berhasil, akan muncul file .class di folder yang sama.
 
 ### Jalankan aplikasi:
-`java LibraryApp`
+`java LibraryApp.java`
 
 ## Di console akan muncul menu:
 === MENU PERPUSTAKAAN MINI ===
